@@ -1,0 +1,97 @@
+/* Navbar Styling */
+header {
+    background-color: #36BA98;
+}
+
+header .navbar-brand,
+header .nav-link {
+    color: #fff !important;
+}
+
+header .navbar-brand:hover,
+header .nav-link:hover {
+    color: #d7ccc8 !important;
+}
+
+header .navbar-toggler {
+    border-color: #fff;
+}
+
+header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFF' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img {
+    height: 45px;
+}
+
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('https://blog.openreplay.com/images/integrating-bootstrap-page-templates-into-our-pages/images/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(254, 254, 254);
+    padding: 80px 20px;
+    background-repeat: no-repeat;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: Impact, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Arial Narrow Bold', sans-serif;
+}
+.hero h1 span {
+    color: #E9C46A;
+
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #393e46;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.cta-section {
+    background-color: #007bff;
+    color: white;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}

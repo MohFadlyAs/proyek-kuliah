@@ -1,0 +1,674 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: monospace;
+    scroll-behavior: smooth;
+
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 1px 0px 10px 0px;
+    
+    
+}
+
+/*
+* menu 
+*/
+
+    nav {
+    background-color: #36BA98;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+    nav > .wrapper {
+        display: flex;
+        justify-content:  space-between;
+        font-size: 1.2rem;
+        align-items: center;
+        z-index: 100;
+    }
+    .nav-link:hover {
+        color: #d7ccc8 !important;
+    }
+    
+    
+.menu {
+    width: 38%;
+    border: 0px solid;
+}
+.menu > ul {
+
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img {
+    height: 45px;
+    padding: 10px;
+    
+}
+
+/*
+* Hero / jumbotron
+*/        
+
+header {
+    background: url(images/bg-header.jpeg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "Homemade Apple", cursive;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000000;
+        }
+
+
+
+.header-opacity {
+    background: #222831;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    
+.header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}    
+
+.header-jumbotron > h4 {
+    color: #E9C46A;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+
+}
+    
+.header-jumbotron > h5 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+.header-jumbotron > p {
+    color: #fff; 
+    margin: 0px;
+    padding: 0px 5px 20px 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fdfdfd;
+    text-shadow: none;
+}
+
+.button {
+    background-color: #36BA98;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    }
+.button-xl {
+    font-size: 1.4rem;
+    padding: 20px;
+    color: #ffffff;
+
+}
+
+/*
+* statistic
+*/
+
+#statistic {
+    background-color: #a98f4f;
+    color:#fff;
+    font-family: "Kanit", sans-serif ;
+}
+#statistic > .wrapper > nav {
+    z-index: 100;
+}
+    
+#statistic > .wrapper   {
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#statistic > .wrapper >div {  
+    text-align: center;
+}
+
+#statistic > .wrapper > div > p {
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#statistic > .wrapper > div > p > i {
+    margin-right: 10px;
+    font-size: 3.0rem;
+    padding: 5px;
+
+}
+
+#statistic > .wrapper > div > small {
+    font-size: 1.5rem;
+}
+
+/*
+* Silabus Kursus
+*/
+
+#silabus-kursus {
+background-color: #36BA98;
+color: #fff;
+
+}
+
+#silabus-kursus > .wrapper {
+padding: 50px 0px 50px 0px;
+
+}
+
+#silabus-kursus > .wrapper > h4 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif ;    
+
+}
+
+#silabus-kursus > .wrapper > h4 >span {
+    color: #ffce10;
+}
+
+#silabus-kursus > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px; 
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px;
+
+}
+.grid > .item {
+    border: 0px solid #666;
+    background-color: #393e46;
+    border-radius: 5px;
+    position: relative;
+}
+.grid > .item > img {
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.grid > .item > .item-detail {
+    padding: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 80%; 
+}
+
+.grid > .item > .item-detail > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+
+}
+
+.grid > .item > .item-detail > div >small {
+    color: #ccc;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.grid > .item > .item-detail > div > a {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: normal;
+    
+}
+
+/*
+* Tentang Saya
+*/ 
+
+#tentang-saya {
+    background-color: #FAEDCE;
+    color: #333;
+    
+    }
+    
+#tentang-saya > .wrapper {
+    padding: 50px 0px 50px 0px;
+
+    }
+    
+#tentang-saya > .wrapper > h4 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif ;    
+    
+    }
+#tentang-saya > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px; 
+    margin-bottom: 40px;
+    
+    } 
+
+#tentang-saya > .wrapper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentang-saya > .wrapper > div > .foto {
+    width: 30%;
+}
+#tentang-saya > .wrapper > div > .foto > img {
+    max-width: 100%;
+}
+#tentang-saya > .wrapper > div > .des {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+#tentang-saya > .wrapper > div > .des > .p {
+    margin: 0px 0px 10px 0px;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+
+} 
+
+#tentang-saya > .wrapper > div > .des > .button {
+    color: #ffffff;
+    justify-content: space-between
+    
+}
+#tentang-saya > .wrapper > div > .des > .social {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    font-size: 1.3rem ;
+    padding-top: 5%;
+
+}
+
+#tentang-saya > .wrapper > div > .des > .social > a {
+    color: #223265;
+}
+
+/*
+*kursus-gratis
+*/
+
+#kursus-gratis {
+    background-color: #E76F51;
+    color: #fff;  
+    
+    }
+    
+#kursus-gratis > .wrapper {
+    padding: 50px 0px 50px 0px;
+    
+    }
+    
+#kursus-gratis > .wrapper > h4 {
+        text-align: center;
+        font-size: 3.0rem;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Kanit", sans-serif ;    
+    
+    }
+    
+#kursus-gratis > .wrapper > h4 >span {
+        color: #ffce10;
+    }
+    
+#kursus-gratis > .wrapper > p {
+        text-align: center;
+        margin: 0px;
+        padding: 0px; 
+        margin-bottom: 50px;
+    } 
+
+#kursus-gratis > .wrapper > .grid > .item {
+    background-color: #222831;
+    margin: 0px;
+    padding: 0px;
+}
+#kursus-gratis > .wrapper > .grid > .item > .item-detail {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.4rem;
+    width: 100%;
+}
+#kursus-gratis > .wrapper > .grid > .item > .item-detail > img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;       
+}
+
+#kursus-gratis > .wrapper > .grid > .item > .item-detail > div {
+    padding: 10px 20px 10px 20px;   
+}
+
+/*
+* copyright
+*/
+
+footer {
+    background-color: #36BA98;
+    color: #fff;
+    text-align: center;
+}
+
+footer > .wrapper {
+    padding: 30px 0px 30px 0px;
+}
+
+/*
+* hamburger menu 
+*/
+
+button.hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none  ;
+}
+button.hamburger-menu > i {
+    color: #fff;
+    font-size: 1.5rem;
+}    
+button.hamburger-menu > i.icon-close {
+    display: none;
+}
+
+
+
+
+
+/*
+* 1024, 900, 768, 600, 450
+*/
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    #statistic > .wrapper > div > p {
+        font-size: 2.5rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    #statistic > .wrapper > div > p > i {
+        font-size: 2.5rem;
+    }
+
+    #statistic > .wrapper > div > small {
+        font-size: 1rem;
+
+    }
+
+    .grid{
+        grid-template-columns: 45% 45%;
+    }
+    .item > img {
+        width: 8%;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        width: 60%;
+    }
+    .header-jumbotron > h4 {
+        font-size: 1.5rem;
+    }
+    .header-jumbotron > h5 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .header-jumbotron > p {
+        font-size: 0.8rem;
+        
+    }
+    .button {
+        padding: 5px;
+
+    }
+    .button-xl {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    #statistic > .wrapper > div > p {
+        font-size: 1.5rem;
+        margin: 0px;    
+    }
+    #statistic > .wrapper > div > p > i {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 100%;
+    }
+
+    #statistic > .wrapper {
+        padding: 10px;
+        flex-direction: column;
+    }
+    #statistic > .wrapper > div {
+        display: flex;
+        
+    }
+    #statistic > .wrapper > div > small {
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
+
+    #tentang-saya > .wrapper > div {
+        width: 100%;
+        flex-direction: column;
+    }
+    #tentang-saya > .wrapper > div > .foto {
+        width: 50%;
+        
+    }
+    #tentang-saya > .wrapper > div > .foto > img {
+        max-width: 100%;
+
+    }
+    #tentang-saya > .wrapper > div > .foto > .des {
+        width: 70%;
+        padding: 20px;
+        margin: 10px;
+    }
+    #tentang-saya > .wrapper > div > .foto > .des > .social {
+        margin: auto;
+    }
+    button.hamburger-menu {
+        display: inline;
+    }
+    .menu {
+        display: none;
+    }
+    .tampil {
+        display: inline;
+    }
+    .tampil > ul {
+        flex-direction: column;
+        background-color: #36BA98;
+        width: 100%;
+        position: absolute;
+        top: 65px;
+        left: 0;
+    }
+    .tampil > ul > li {
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+
+/*
+* Page 2
+*/
+
+body {
+    background-color: #4a73b1;
+    font-family: 'Arial', sans-serif;
+}
+
+.join-form {
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: #eed79e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-container h2 {
+    font-weight: bold;
+    color: #36BA98;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#successMessage {
+    background-color: #28a745;
+    border: none;
+}
+
+/*
+* Page 3
+*/
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.success-message-container {
+    height: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h1.display-4 {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+

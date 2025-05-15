@@ -1,0 +1,94 @@
+/* Navbar Styling */
+header {
+    background-color: #36BA98; /* Warna hijau teal */
+}
+
+header .navbar-brand,
+header .nav-link {
+    color: #fff !important; 
+}
+
+header .navbar-brand:hover,
+header .nav-link:hover {
+    color: #d7ccc8 !important; 
+}
+
+header .navbar-toggler {
+    border-color: #fff; 
+}
+
+header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFF' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* Kursus Gratis Section Styling */
+.free-course {
+  background-color: #E76F51; 
+  color: #fff; 
+  padding: 50px 0;
+}
+.logo img {
+  height: 60px;
+  padding: 10px;
+
+}
+.free-course h2 {
+  font-size: 2.5rem;
+  color: #fff; 
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.free-course p.lead {
+  color: #fff; 
+  margin-bottom: 30px;
+}
+
+.free-course .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+
+
+.free-course .card:hover {
+  transform: scale(1.05);
+}
+
+.free-course .card-img-top {
+  border-radius: 0;
+}
+
+.free-course .card-body {
+  background-color: #36BA98; 
+  color: #141517; 
+  text-align: center;
+}
+
+.free-course .btn-primary {
+  background-color: burlywood;
+  border-color:burlywood ;
+  
+}
+
+.free-course .btn-primary:hover {
+  background-color: #E76F51;
+  border-color: #E76F51;
+}
+
+/*
+* copyright
+*/
+
+footer {
+  background-color: #36BA98;
+  color: #fff;
+  text-align: center;
+}
+
+footer > .wrapper {
+  padding: 30px 0px 30px 0px;
+}
